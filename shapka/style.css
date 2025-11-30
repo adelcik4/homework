@@ -1,0 +1,43 @@
+html {
+  font-family: sans-serif;
+}
+
+body {
+  box-sizing: content-box;
+}
+
+.flex-container {
+  margin: 0 auto;
+  padding: 0 15px 14px 15px;
+  max-width: 1320px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  border-bottom: 1px solid #000;
+}
+.item-logo {
+  max-width: 50px;
+  max-height: 50px;
+}
+
+ul {
+  display: flex;
+  gap: 25px;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  color: #000;
+}
+
+.item-number {
+  text-decoration: none;
+}
