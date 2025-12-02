@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yandexform</title>
+    <link rel="stylesheet" href=".//css/style.css" />
+    <link rel="stylesheet" href="./css/normalize.css" />
+  </head>
+  <body>
+    <div class="flex-container">
+    <form class="form"><fieldset class="fieldset class="text-to-right""> 
+
+        <legend class="legend">Обратная связь</legend>
+        <img class="yandex-icon" src="Yandex_icon.svg.png" alt="Логотип Яндекс"> <div class="name unit"><label for="name">
+      <p class="text-to-right"><span class="red-marker">*</span> Ваше имя</p>
+        <input class="box" required placeholder="Имя" name="name"></input>
+    </label>
+    </div> 
+    <div class="email unit">
+    <label for="Email">
+        <p class="text-to-right"><span class="red-marker">*</span> Email, на который будет направлен ответ</p>
+        <input class="box" required placeholder="Email" name="email"></input>
+    </label>
+    </div>
+    <div class="organization unit">
+    <label for="text">
+        <p class="text-to-right"><span class="red-marker">*</span> Название организации</p>
+        <input class="box" required placeholder="Организация" name="organization"></input>
+    </label>
+    </div>
+    <div class="url unit">
+    <label for="url">
+        <p class="text-to-right"><span class="red-marker">*</span> Имя домена</p>
+        <input class="box" required placeholder="Домен" name="url"></input>
+    </label>
+    </div>
+    <div class="addres unit">
+        <p class="text-to-right"><span class="red-marker">*</span> Тема обращения</p>
+<select class="box" name="addres" id="addres-select">
+    <option class="option" value="messages">Вопрос про уведомления</option>
+    <option class="option" value="services"> Проблемы с доступом к сервисам</option>
+    <option class="option" value=advertisement">Проблемы с рекламой</option>
+    <option class="option" value="visibility">Проблемы с видимостью сайта</option>
+    <option class="option" value="safety">Вопросы по безопасности</option>
+    <option class="option" value="feedback">Обратная связь по продуктам</option>
+    <option class="option" value="questions">Общие вопросы и консультации</option>
+</select> <div class="button-and-checkbox">
+<div class="rules unit">
+    <label for="checkbox">
+        <p class="rules-text"><span class="red-marker">*</span> Я принимаю правила</p>
+        <input class="checkbox" type="checkbox" required name="rules"></input>
+     
+    </label>
+    </div>
+    </label>
+    </div>
+    <div class="button-margin">
+    <button class="button">Отправить</button>
+    </div>
+</div>
+</fieldset></form>
+</div>
+  </body>
+</html>
