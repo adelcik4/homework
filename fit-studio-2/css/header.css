@@ -1,46 +1,28 @@
-.container {
-  padding: 0;
-}
-
-.header-container {
+.header-inner {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  gap: 10px;
   padding-top: 30px;
   padding-bottom: 30px;
   border-bottom: 1px solid #d3cbd9;
-  max-width: 1220px;
-  max-height: 105px;
 }
 
-.header-link-logo {
-  cursor: pointer;
-}
-
-.header-tel {
-  max-width: 240px;
-  max-height: 45px;
-  font-family: "Ubuntu";
-  font-weight: 300;
-  font-size: 14px;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
+.phone {
   text-align: right;
-  color: #858e8a;
 }
 
-.header-tel p {
+.phone p {
   margin-bottom: 8px;
 }
 
-.header-tel a {
+.phone a {
   font-weight: 500;
   font-size: 18px;
   color: #2c332f;
-  text-decoration: none;
-  cursor: pointer;
   transition: color 0.2s;
 }
 
-.header-tel a:hover {
+.phone a:hover {
   color: #3596ed;
 }
