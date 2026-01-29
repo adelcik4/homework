@@ -1,0 +1,14 @@
+.page {
+  font-family: var(--font-family);
+  scroll-behavior: smooth;
+}
+
+.page__body {
+  min-width: 375px;
+  background-color: var(--bg-color);
+}
+
+.container {
+  max-width: 1920px;
+  margin: 0 auto;
+}
